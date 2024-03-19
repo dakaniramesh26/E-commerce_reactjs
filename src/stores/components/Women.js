@@ -8,13 +8,13 @@ const Woman = () => {
   return (
     <>
       <div className="proTitle">
-        <h2>Woman Dressing</h2>
+        <h2 style={{fontFamily:"Aharoni"}} >Woman Dressing</h2>
       </div>
       <div className="proSection">
         {
         firstFiveImages.map((item) =><div className="imgBox">
         <Link to='/women'>
-        <img className="proImage" src={item.image} alt="" />
+        <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} className="proImage" src={item.image} alt="" />
         </Link>
       </div>
         )

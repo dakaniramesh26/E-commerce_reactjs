@@ -21,6 +21,8 @@ import WomanSingle from './stores/singles/WomenSingles'
 import WatchPage from './stores/pages/WatchPage'
 import FridgeSingle from './stores/singles/FridgeSingles'
 import UserCart from './stores/UserCart'
+import Login from './stores/login'
+import Register from './stores/Register'
 
 
 const App = () => {
@@ -47,6 +49,8 @@ const App = () => {
         <Route path='/watch/:id' element = {<WatchSingle />} />
         <Route path='/woman/:id' element = {<WomanSingle />} />
         <Route path='/fridge/:id' element = {<FridgeSingle />} />
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/login' element={<Login/>}/>
         
       </Routes>
     </div>

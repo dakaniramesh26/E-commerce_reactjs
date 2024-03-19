@@ -12,7 +12,7 @@ const Fridge = () => {
   return (
    <>
     <div className="proTitle">
-        <h2>Fridges</h2>
+        <h2 style={{fontFamily:"Aharoni"}} >Fridges</h2>
       </div>
    <div className='proSection'>
         {
@@ -20,7 +20,7 @@ const Fridge = () => {
                 return(
                     <div className='imgBox'>
                         <Link to='/fridge'>
-                        <img className='proImage' src={item.image} alt="" />
+                        <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} className='proImage' src={item.image} alt="" />
                         </Link>
                     </div>
                 )

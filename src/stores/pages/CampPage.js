@@ -29,8 +29,8 @@ return (
 {computerData.map((phone)=>{
     return(
         <div className='pro-input'>
-            <label >
-                <input type="checkbox" 
+            <label style={{fontFamily:"Aharoni"}} >
+                <input type="radio" 
                 checked = {selectedProduct.includes(phone.company)}
                 onChange={()=>companyHandler(phone.company)}
                 />
@@ -49,10 +49,10 @@ return (
 
             <Link to={`/computers/${item.id}`}>
                 <div className="pageImg">
-                    <img src={item.image} alt="" />
+                    <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} src={item.image} alt="" />
                 </div>
             </Link>
-                <div className="proModel">
+                <div className="proModel" style={{fontFamily:"Aharoni"}} >
                     {item.company}, {item.model}
                 </div>
             </div>

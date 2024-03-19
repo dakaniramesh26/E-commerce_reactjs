@@ -10,7 +10,7 @@ const Furniture = () => {
   return (
     <>
    <div className="proTitle">
-        <h2>Furniture</h2>
+        <h2 style={{fontFamily:"Aharoni"}} >Furniture</h2>
       </div>
    <div className='proSection'>
         {
@@ -18,7 +18,7 @@ const Furniture = () => {
                 return(
                     <div className='imgBox'>
                         <Link to='/furniture'>
-                        <img className='proImage' src={item.image} alt="" />
+                        <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} className='proImage' src={item.image} alt="" />
                         </Link>
                     </div>
                 )

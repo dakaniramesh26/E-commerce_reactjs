@@ -8,6 +8,8 @@ import Mobiles from './mobiles'
 import Computers from './Computers'
 import Furniture from './Furniture'
 import Woman from './Women'
+import Login from '../login'
+import Register from '../Register'
 
 
 
@@ -25,6 +27,8 @@ const Products = () => {
 <AC/>
 <Kitchen/>
 <Fridge/>
+{/* <Login/>
+<Register/> */}
     </div>
   )
 }

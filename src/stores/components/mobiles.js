@@ -13,7 +13,7 @@ const Mobiles = () => {
     return (
      <>
       <div className="proTitle">
-          <h2>Mobiles</h2>
+          <h2 style={{fontFamily:"Aharoni"}} >Mobiles</h2>
         </div>
      <div className='proSection'>
           {
@@ -21,7 +21,7 @@ const Mobiles = () => {
                   return(
                       <div className='imgBox'>
                           <Link to='/mobiles'>
-                          <img className='proImage' src={item.image} alt="" />
+                          <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} className='proImage' src={item.image} alt="" />
                      </Link>
                       </div>
                   )

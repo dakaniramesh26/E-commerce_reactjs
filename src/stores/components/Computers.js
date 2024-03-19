@@ -9,7 +9,7 @@ const  Computers= () => {
   return (
     <>
       <div className="proTitle">
-        <h2>Computers</h2>
+        <h2 style={{fontFamily:"Aharoni"}} >Computers</h2>
       </div>
       <div className="proSection">
       {
@@ -17,8 +17,10 @@ const  Computers= () => {
         return (
           <div className="imgBox">
             <Link to='/computers'>
-            <img className="proImage" src={item.image} alt="" />
+            <img style={{ boxShadow:"5px 5px 10px 5px rgb(0 0 0 / 0.2)"}} className="proImage" src={item.image} alt="" />
             </Link>
+            
+     
           </div>
         );
       })}

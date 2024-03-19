@@ -9,14 +9,14 @@ const AC = () => {
   return (
     <>
       <div className="proTitle">
-        <h2>Air Condition</h2>
+        <h2 style={{fontFamily:"Aharoni"}} >Air Condition</h2>
       </div>
       <div className="proSection">
         {firstFiveImages.map((item) => {
           return (
             <div className="imgBox">
               <Link to='/ac'>
-              <img className="proImage" src={item.image} alt="" />
+              <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} className="proImage" src={item.image} alt="" />
               </Link>
             </div>
           );

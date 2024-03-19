@@ -30,8 +30,8 @@ return (
 {mobileData.map((phone)=>{
     return(
         <div className='pro-input'>
-            <label >
-                <input type="checkbox" 
+            <label style={{fontFamily:"Aharoni"}} >
+                <input type="radio" 
                 checked = {selectedProduct.includes(phone.company)}
                 onChange={()=>companyHandler(phone.company)}
                 />
@@ -50,11 +50,11 @@ return (
 
             <Link to={`/mobiles/${item.id}`}>
                 <div className="mobileImage">
-                    <img src={item.image} width="100%" height="100%" alt="" />
+                    <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} src={item.image} width="100%" height="100%" alt="" />
                 </div>
             </Link>
-                <div className="proModel">
-                    {item.company}, {item.model}
+                <div className="proModel" style={{fontFamily:"Aharoni"}} >
+                {item.company}, {item.model}
                 </div>
             </div>
         )

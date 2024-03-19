@@ -15,27 +15,29 @@ const MenSingle = () => {
 
   return (
     <>
-      <Navbar />
-      <div className="ind-section">
-        <div className="ind-image">
-          <img src={product.image} alt="" />
-        </div>
-        <div className="ind-details space">
-          <div className="ind-company">
-            <h2>{product.company}</h2>
-          </div>
-          <div className="ind-model space">
-            <h3>{product.model}</h3>
-          </div>
-          <div className="ind-price space">
-            <h2>{product.price}</h2>
-          </div>
-          <div className="ind-desc space">
-            <p>{product.description}</p>
-          </div>
-          <button onClick={()=>addToCart(product)}>Add to Cart</button>
-        </div>
-      </div>
+     
+    <Navbar/>
+      <center>
+      
+
+<div class="card mb-3" style={{width: "1000px", margin:"20px", backgroundColor:"#F7F7F7"}}>
+<div class="row g-0">
+<div class="col-md-4">
+ <img style={{margin:"30px ", boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)", objectFit:"cover", height:"220px"}} src={product.image} class="img-fluid rounded-start" alt="image"/>
+</div>
+<div class="col-md-8">
+ <div class="card-body" style={{marginTop:"30px"}}>
+  
+   <h5>{product.model}</h5>
+   <h3>₹ {product.price}</h3>
+   <p class="card-text">{product.description}</p>
+   <a href="#" class="btn btn-primary" onClick={()=>addToCart(product)}>Add To Cart</a>
+ </div>
+</div>
+</div>
+</div>
+      </center>
+      
     </>
   );
 };

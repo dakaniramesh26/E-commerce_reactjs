@@ -8,14 +8,14 @@ const Watch = () => {
 
   return (
     <>
-    <h2>Watches</h2>
+    <h2 style={{fontFamily:"Aharoni"}} >Watches</h2>
     <div className='proSection'>
          {
           firstFiveImages.map((item)=>{
            return(
                <div className='imgBox'>
                 <Link to='/watch'>
-                 <img className='proImage' src={item.image} alt="" />
+                 <img style={{ boxShadow:"3px 3px 10px rgb(0 0 0 / 0.2)"}} className='proImage' src={item.image} alt="" />
                   </Link>
                 </div>
                  )

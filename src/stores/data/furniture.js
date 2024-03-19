@@ -5,40 +5,40 @@ export const furnitureData = [{
     "type": "Sofa",
     "brand": "IKEA",
     "model": "ComfortPlus",
-    "price": "499.99",
+    "price": 25499.99,
     "category": "Home",
     "description": "A comfortable and modern sofa with plush cushions and a sleek design."
 },
 {
     "id": "2",
     "product": "Furniture",
-    "image": "/assets/Furniture/2.jpg",
+    "image": "https://m.media-amazon.com/images/I/71ykuq8hTTL._SX679_.jpg",
     "type": "Dining Table",
     "brand": "Wayfair",
     "model": "ElegantDine",
-    "price": "899.00",
+    "price": 12899.00,
     "category": "Home",
     "description": "An elegant dining table with solid wood construction and expandable design."
 },
 {
     "id": "3",
     "product": "Furniture",
-    "image": "/assets/Furniture/3.jpg",
+    "image": "https://m.media-amazon.com/images/I/41L97QlLekL._SX300_SY300_QL70_FMwebp_.jpg",
     "type": "Bed",
     "brand": "Ashley ",
     "model": "DreamRest",
-    "price": "799.50",
+    "price": 15799.50,
     "category": "Home",
     "description": "A stylish and comfortable bed with upholstered headboard and durable frame."
 },
 {
     "id": "4",
     "product": "Furniture",
-    "image": "/assets/Furniture/4.jpg",
+    "image": "https://m.media-amazon.com/images/I/51oSS3nJRNL._SX300_SY300_QL70_FMwebp_.jpg",
     "type": "Coffee Table",
     "brand": "West Elm",
     "model": "ModernBlend",
-    "price": "349.99",
+    "price": 949.99,
     "category": "Home",
     "description": "A modern coffee table with a blend of materials, adding character to your living room."
 },
@@ -49,7 +49,7 @@ export const furnitureData = [{
     "type": "Wardrobe",
     "brand": "Houzz",
     "model": "SpaceSaver",
-    "price": "599.00",
+    "price": 1599.00,
     "category": "Home",
     "description": "A space-saving wardrobe with versatile storage compartments and sleek appearance."
 },
@@ -60,7 +60,7 @@ export const furnitureData = [{
     "type": "Bookshelf",
     "brand": "Crate & Barrel",
     "model": "BookHaven",
-    "price": "299.50",
+    "price": 1099.50,
     "category": "Home",
     "description": "A functional bookshelf with adjustable shelves, suitable for any room."
 },
@@ -71,7 +71,7 @@ export const furnitureData = [{
     "type": "Desk",
     "brand": "Staples",
     "model": "WorkPro",
-    "price": "199.99",
+    "price": 1909.99,
     "category": "Office",
     "description": "A spacious office desk with ergonomic design and ample storage."
 },
@@ -82,7 +82,7 @@ export const furnitureData = [{
     "type": "Bar Stool",
     "brand": "Target",
     "model": "UrbanChic",
-    "price": "89.00",
+    "price": 289.00,
     "category": "Home",
     "description": "An urban chic bar stool with a contemporary look, perfect for kitchen islands."
 },
@@ -93,7 +93,7 @@ export const furnitureData = [{
     "type": "Dresser",
     "brand": "Pottery Barn",
     "model": "RusticCharm",
-    "price": "599.99",
+    "price": 599.99,
     "category": "Home",
     "description": "A rustic dresser with ample storage space and charming distressed finish."
 },
@@ -104,7 +104,7 @@ export const furnitureData = [{
     "type": "Couch",
     "brand": "Crate & Barrel",
     "model": "ComfyLounge",
-    "price": "999.00",
+    "price": 1999.00,
     "category": "Home",
     "description": "A comfortable couch with deep seating and modern design, perfect for lounging."
 },
@@ -115,7 +115,7 @@ export const furnitureData = [{
     "type": "Side Table",
     "brand": "CB2",
     "model": "MinimalistSide",
-    "price": "149.50",
+    "price": 2149.50,
     "category": "Home",
     "description": "A minimalist side table with clean lines, adding functionality to any space."
 },
@@ -126,7 +126,7 @@ export const furnitureData = [{
     "type": "Bedside Table",
     "brand": "Ethan Allen",
     "model": "ClassicNight",
-    "price": "249.00",
+    "price": 1249.00,
     "category": "Home",
     "description": "A classic bedside table with a timeless design and convenient storage."
 }
